@@ -1,8 +1,8 @@
 /*
  * Lightweight Embedded JSON Parser
  *
- * Copyright (C) 2013 Andy Green <andy@warmcat.com>
- * This code is licensed under LGPL 2.1
+ * Copyright (C) 2013-2015 Andy Green <andy@warmcat.com>
+ * This code is licensed under LGPL 2.1 + Static Linking Exception
  * http://www.gnu.org/licenses/lgpl-2.1.html
  */
 

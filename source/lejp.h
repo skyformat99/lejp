@@ -1,3 +1,16 @@
+/*
+ * Lightweight Embedded JSON Parser
+ *
+ * Copyright (C) 2013-2015 Andy Green <andy@warmcat.com>
+ * This code is licensed under LGPL 2.1 + Static Linking Exception
+ * http://www.gnu.org/licenses/lgpl-2.1.html
+ */
+
+#ifndef __LEJP_H__
+#define __LEJP_H__
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 struct lejp_ctx;
 
@@ -212,3 +225,8 @@ lejp_parse(struct lejp_ctx *ctx, const unsigned char *json, int len);
 extern void
 lejp_change_callback(struct lejp_ctx *ctx,
 		       char (*callback)(struct lejp_ctx *ctx, char reason));
+
+#ifdef __cplusplus
+};
+#endif
+#endif
